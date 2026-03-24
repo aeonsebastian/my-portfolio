@@ -15,58 +15,22 @@ function Projects() {
   const projects: Project[] = [
     {
       id: 1,
-      title: 'E-Commerce Platform',
-      description: 'A full-stack e-commerce platform with payment integration, inventory management, and user authentication.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
-      github: '#',
-      link: '#',
+      title: 'Schools Division Office of Caloocan City Inventory Management System',
+      description: 'Inventory management system for tracking and managing inventory across all schools in the Schools Division Office of Caloocan City.',
+      technologies: ['React', 'Node.js', 'PostgreSQL'],
     },
     {
       id: 2,
-      title: 'Task Management App',
-      description: 'Collaborative task management application with real-time updates, team features, and progress tracking.',
-      technologies: ['React', 'Firebase', 'TypeScript', 'Tailwind CSS'],
-      github: '#',
-      link: '#',
-    },
-    {
-      id: 3,
-      title: 'Weather Dashboard',
-      description: 'Real-time weather application with geolocation, forecast data, and beautiful visualizations.',
-      technologies: ['React', 'REST API', 'Chart.js', 'CSS Grid'],
-      github: '#',
-      link: '#',
-    },
-    {
-      id: 4,
-      title: 'Social Media Analytics',
-      description: 'Analytics dashboard for social media metrics with data visualization and trend analysis.',
-      technologies: ['React', 'D3.js', 'Express.js', 'PostgreSQL'],
-      github: '#',
-      link: '#',
-    },
-    {
-      id: 5,
-      title: 'Blog Platform',
-      description: 'Content management system for creating and publishing blog posts with Markdown support.',
-      technologies: ['Next.js', 'Prisma', 'PostgreSQL', 'NextAuth.js'],
-      github: '#',
-      link: '#',
-    },
-    {
-      id: 6,
-      title: 'Mobile App Companion',
-      description: 'Web application companion for mobile app with API integration and data synchronization.',
-      technologies: ['React', 'GraphQL', 'Apollo', 'Node.js'],
-      github: '#',
-      link: '#',
+      title: 'Circuit Cube',
+      description: 'Logic circuits are fundamental to digital electronics, serving as the building blocks of devices ranging from everyday gadgets to complex computing systems. These circuits process binary signals (0sand 1s) through logical gates such as AND, OR, and NOT. To construct these circuits, several basic components are required, including a breadboard, battery, integrated circuits (ICs), diodes, and resistors.',
+      technologies: ['React', 'Node.js', 'MongoDB'],
     },
   ]
 
   return (
     <section id="projects" className="projects">
       <div className="container">
-        <h2 className="section-title">Featured Projects</h2>
+        <h2 className="section-title">Projects</h2>
         <div className="projects-grid">
           {projects.map((project) => (
             <div key={project.id} className="project-card">

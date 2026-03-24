@@ -9,15 +9,15 @@ function Skills() {
   const skills: Skill[] = [
     {
       category: 'Frontend',
-      items: ['React', 'TypeScript', 'JavaScript', 'HTML/CSS', 'Tailwind CSS', 'Redux', 'Next.js'],
+      items: ['React', 'TypeScript', 'JavaScript', 'HTML/CSS', 'Tailwind CSS'],
     },
     {
       category: 'Backend',
-      items: ['Node.js', 'Express.js', 'Python', 'SQL', 'MongoDB', 'PostgreSQL', 'Firebase'],
+      items: ['Node.js','SQL', 'MongoDB', 'PostgreSQL'],
     },
     {
       category: 'Tools & Technologies',
-      items: ['Git & GitHub', 'Docker', 'VS Code', 'Postman', 'AWS', 'Webpack', 'Vite'],
+      items: ['Git & GitHub', 'VS Code', 'Postman', 'Vite'],
     },
     {
       category: 'Soft Skills',

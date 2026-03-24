@@ -1,9 +1,9 @@
 /* Hero Section - Compact Asymmetrical */
 .hero {
-  min-height: 70vh;
+  min-height: 95vh;
   display: flex;
   align-items: center;
-  padding: 60px 20px;
+  padding: 80px 20px;
   position: relative;
   overflow: hidden;
 }
@@ -86,15 +86,16 @@ box-shadow: 0 12px 30px rgba(166, 124, 82, 0.15);
 }
 
 /* Responsive */
-@media (max-width: 768px) {
+/* Extra Small Devices (320px - 480px) */
+@media (max-width: 480px) {
   .hero {
     min-height: auto;
-    padding: 50px 20px;
+    padding: 35px 16px;
   }
 
   .hero-container {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .hero-shape-left {

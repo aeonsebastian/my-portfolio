@@ -8,18 +8,15 @@ function About() {
         <div className="about-content">
           <div className="about-text">
             <p>
-              I'm a passionate full-stack developer with a keen eye for creating beautiful, functional web experiences.
-              With expertise in React, Node.js, and modern web technologies, I transform ideas into reality.
+              I am a passionate programmer who enjoys building systems and solving real-world problems through code. I have experience working with technologies such as JavaScript, React, Node.js, and PostgreSQL, and I enjoy developing web applications that are both functional and user-friendly. I am constantly learning new tools and improving my skills to become a better developer. My goal is to create efficient, scalable, and impactful software solutions.
             </p>
             <p>
-              When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects,
-              or sharing knowledge with the developercommunity.
+              In addition to my technical skills, I am a strong communicator and collaborator. I enjoy working in teams and believe that effective communication is key to successful project outcomes. I am always open to feedback and eager to learn from others, which helps me grow both personally and professionally.
             </p>
           </div>
           <div className="about-image">
             <div className="image-placeholder">
-              <img src="profile.jpg" alt="Aeon Sebastian Cruz" className="profile-image" />
-
+              <img src="/profile.jpg" alt="Aeon Sebastian Cruz" className="profile-image" />
             </div>
           </div>
         </div>
