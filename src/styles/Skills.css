@@ -5,6 +5,7 @@
   position: relative;
   overflow: hidden;
   min-height: auto;
+}
 
 .skills::after {
   content: '';
@@ -116,6 +117,7 @@
 }
 
 /* Responsive */
+
 /* Extra Small Devices (320px - 480px) */
 @media (max-width: 480px) {
   .skills {
